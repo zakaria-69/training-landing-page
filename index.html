@@ -6,7 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel='stylesheet' href="./assets/style/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.14/fullpage.min.css" integrity="sha512-z2+oYjosHRlDdadmvXuK8Qk/P+30b0pkhrdvMqWgml3yx9YDnWQYhqswJ04+U+sE8ZBi8zTvr1lpx9S2+7Uwzw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.14/fullpage.min.css"
+        integrity="sha512-z2+oYjosHRlDdadmvXuK8Qk/P+30b0pkhrdvMqWgml3yx9YDnWQYhqswJ04+U+sE8ZBi8zTvr1lpx9S2+7Uwzw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="icon" href="./assets/manette_icon.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,25 +22,25 @@
         <div class="section un">
             <div class="hero">
                 <div class="video-container">
-                <video data-autoplay loop muted plays-inline class="video-background">
-                    <source src="./assets/Rainbow_Nebula_4K_Motion_Background.mp4" type="video/mp4">
-                </video>
-            </div>
+                    <video data-autoplay loop muted plays-inline class="video-background">
+                        <source src="./assets/Rainbow_Nebula_4K_Motion_Background.mp4" type="video/mp4">
+                    </video>
+                </div>
                 <header>
-                    <h1>Game On</h1>
+                    <h1>Game Inc</h1>
                     <nav>
                         <ul>
                             <li><a href="#">Esport</a></li>
-                            <li><a href="#">Side Products</a></li>
-                            <li><a href="#">Events</a></li>
+                            <li><a href="#trois">Events</a></li>
                             <li><a href="#deux">Contact</a></li>
+                            <li><a href="#">Side Products</a></li>
                         </ul>
                     </nav>
                 </header>
                 <main>
-                    <div class="left-block-container">
+                    <div class="esport-container">
                         <h2>Esport</h2>
-                        <div class="left-block-subcontainer">
+                        <div class="esport-subcontainer">
                             <p>Because gaming became a real challenging circuit over the past few years
                                 our roster brings high competitive performances throught coachings and
                                 games analysys on many types of games like FPS ,MOBA,BATTLE ROYALE and others.
@@ -53,25 +55,37 @@
                                 class="symetra-overwatch-img">
                         </div>
                     </div>
-                    <div class="right-block-container">
-                        <h2>Events</h2>
-                        <div class="right-block-subcontainer">
+                </main>
+            </div>
+        </div>
+        <div class="section deux" id="deux">
+            <div class="events-container">
+                <div class="events">
+                    <h2>Events</h2>
+                    <div class="events-subcontainer">
+                        <div class="events-left-block">
                             <p>Our roster was invited at the biggest esport tournaments in the world</p>
                             <div class="tournament-image-container">
                                 <img src="./assets/esport_tournament.jpg" alt="image-esport-tournament">
                                 <p>partcipation at Esport World tournament 2022</p>
                             </div>
-    
                         </div>
+                        <div class="events-right-block">
+                            <p>Our rainbow 6 squad won the great tacticle shooters championship in London 2022</p>
+                            <div class="tournament-image-container">
+                                <img src="./assets/r6champions.jpg" alt="image-esport-tournament">
+                                <p>Our players celebrating victory in London tournament 2022</p>
+                            </div>
+                            </div>
                     </div>
-                </main>
+                </div>
             </div>
         </div>
-        <div class="section deux" id="deux">
+        <div class="section trois" id="trois">
             <div id="join-us">
                 <div class="titleTwo">
-                <h2>U want to play competitiv Esport?</h2>
-                <p>Fill this form to contact us</p>
+                    <h2>U want to play competitiv Esport?</h2>
+                    <p>Fill this form to contact us</p>
                 </div>
                 <form method="get" class="contact-form">
                     <div class="join-us-form">
@@ -95,23 +109,15 @@
                     <div class="join-us-form">
                         <label for="motivations">About you</label>
                         <br>
-                        <textarea type="text"
-                         id="motivations"
-                         maxlength="250"
-                         >
+                        <textarea type="text" id="motivations" maxlength="250">
                         </textarea>
                         <p id="lastNameErrorMsg"></p>
-                    </div> 
+                    </div>
                     <div class="submit-form-container">
-                    <input type="submit"
-                    value="envoyer"
-                    id="submit-form"> 
-                </div>      
+                        <input type="submit" value="envoyer" id="submit-form">
+                    </div>
                 </form>
             </div>
-        </div>
-        <div class="section 3">
-            <h1>section 3</h1>
         </div>
         <!--<div class="hero section1">
             <video autoplay loop muted plays-inline class="video-background">
@@ -129,9 +135,9 @@
                 </nav>
             </header>
             <main>
-                <div class="left-block-container">
+                <div class="esport-container">
                     <h2>Esport</h2>
-                    <div class="left-block-subcontainer">
+                    <div class="esport-subcontainer">
                         <p>Because gaming became a real challenging circuit over the past few years
                             our roster brings high competitive performances throught coachings and
                             games analysys on many types of games like FPS ,MOBA,BATTLE ROYALE and others.
@@ -146,9 +152,9 @@
                             class="symetra-overwatch-img">
                     </div>
                 </div>
-                <div class="right-block-container">
+                <div class="events">
                     <h2>Events</h2>
-                    <div class="right-block-subcontainer">
+                    <div class="events-subcontainer">
                         <p>Our roster was invited at the biggest esport tournaments in the world</p>
                         <div class="tournament-image-container">
                             <img src="./assets/esport_tournament.jpg" alt="image-esport-tournament">
@@ -191,8 +197,12 @@
             </div>
         </div> -->
     </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.14/fullpage.min.js" integrity="sha512-JEyqsBTR2woLAr79cq9g77k5aviE4ffJUwQ52NRRIsXQz5Xp2Am7vJD99hhc2q7lhvG0XCYs1cDGvl8d/t669Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.14/fullpage.min.js"
+        integrity="sha512-JEyqsBTR2woLAr79cq9g77k5aviE4ffJUwQ52NRRIsXQz5Xp2Am7vJD99hhc2q7lhvG0XCYs1cDGvl8d/t669Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./index.js"></script>
 </body>
 
 </html>
+
+
